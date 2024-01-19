@@ -1,7 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ecolechi/public_html/crm2
-    - /bin/rm -Rf $DEPLOYPATH
-    - /bin/mkdir $DEPLOYPATH
-    - /bin/cp -R src/. $DEPLOYPATH
+    - export DEPLOYPATH=/home/ecolechi/public_html/crm2 #Add /<sub_folder> if required
+    - /bin/cp -r * $DEPLOYPATH
