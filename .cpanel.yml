@@ -1,5 +1,5 @@
 ---
 deployment:
       tasks:
-        - export DEPLOYPATH=/home/ecolechi/public_html/crm2
+        - export DEPLOYPATH=/home/ecolechi/public_html/crm2/
         - /bin/cp -r /home/ecolechi/repositories/newcrm/ * $DEPLOYPATH
